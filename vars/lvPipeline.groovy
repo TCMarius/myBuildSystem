@@ -3,7 +3,7 @@ def PULL_REQUEST = env.CHANGE_ID
 
 //ENTER THE ABOVE INFORMATION
 
-def call(lvProjectPath, lvBuildSpecName, lvVersion, lvBitness) {
+def call(lvProjectPathC:\Users\trifanm\Documents\GitHub\myApplication\source, Test, 21.0, 32) {
 
 	switch(lvVersion){  //This is to abstract out the different Jenkinsfile conventions of setting version to 14.0 instead of 2014.
 	  case "18.0":
@@ -15,10 +15,9 @@ def call(lvProjectPath, lvBuildSpecName, lvVersion, lvBitness) {
 	  case "20.0":
 		lvVersion="2020"
 		break
-	  case "21.0":
-		lvVersion="2021"
+	 case "21.0":
+		lvVersion="2020"
 		break
-		
 <<<<<<< HEAD
 
 =======
