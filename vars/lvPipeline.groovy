@@ -18,6 +18,7 @@ def call(lvProjectPath, lvBuildSpecName, lvVersion, lvBitness) {
 	  case "21.0":
 		lvVersion="2021"
 		break
+		
 <<<<<<< HEAD
 
 =======
